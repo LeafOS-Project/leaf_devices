@@ -1,0 +1,56 @@
+[
+  {
+    "device": [
+      "m20lte"
+    ],
+    "family": "universal7904",
+    "repositories": [
+      {
+        "name": "LeafOS-Devices/android_device_samsung_m20lte",
+        "path": "device/samsung/m20lte"
+      },
+      {
+        "name": "SamarV-121/android_device_samsung_universal7904-common",
+        "path": "device/samsung/universal7904-common",
+        "fetch": "https://github.com/",
+        "revision": "lineage-20"
+      },
+      {
+        "name": "SamarV-121/android_device_samsung_m20lte-kernel",
+        "path": "device/samsung/m20lte-kernel",
+        "fetch": "https://github.com/",
+        "revision": "lineage-20"
+      },
+      {
+        "name": "LineageOS/android_device_samsung_slsi_sepolicy",
+        "path": "device/samsung_slsi/sepolicy",
+        "fetch": "https://github.com/",
+        "revision": "d6f9827a018072091e6f7623b826a9f5bf03496d"
+      },
+      {
+        "name": "LineageOS/android_hardware_samsung",
+        "path": "hardware/samsung",
+        "fetch": "https://github.com/",
+        "revision": "d4f842bcb6ceb81c596ac1d26182830a24a89b34"
+      },
+      {
+        "name": "LineageOS/android_hardware_samsung_slsi_libbt",
+        "path": "hardware/samsung_slsi/scsc_wifibt/libbt",
+        "fetch": "https://github.com/",
+        "revision": "lineage-20"
+      },
+      {
+        "name": "LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal",
+        "path": "hardware/samsung_slsi/scsc_wifibt/wifi_hal",
+        "fetch": "https://github.com/",
+        "revision": "lineage-20"
+      },
+      {
+        "name": "LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib",
+        "path": "hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib",
+        "fetch": "https://github.com/",
+        "revision": "lineage-20"
+      }
+    ]
+  }
+]
