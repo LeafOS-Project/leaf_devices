@@ -1,0 +1,18 @@
+---
+- remote:
+  - github: 'https://github.com/'
+  - gitlab: 'https://gitlab.com/'
+- device:
+  - m20lte
+  family: universal7904
+  repositories:
+  - name: SamarV-121/proprietary_vendor_samsung_m20lte
+    path: vendor/samsung/m20lte
+    remote: gitlab
+    revision: lineage-20
+  - name: SamarV-121/android_device_samsung_m20lte
+    path: device/samsung/m20lte
+    remote: github
+    revision: lineage-20
+  - name: SamarV-121/android_device_samsung_universal7904-common
+    path: device/samsung/universal7904-common
