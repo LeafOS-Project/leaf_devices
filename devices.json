@@ -1,0 +1,18 @@
+[
+  {
+    "device": "m20lte",
+    "group": "universal7904",
+    "repositories": [
+      "LeafOS-Devices/android_device_samsung_m20lte",
+      "LeafOS/android_hardware_samsung"
+    ]
+  },
+  {
+    "device": "bs",
+    "group": "universal7904",
+    "repositories": [
+      "LeafOS-Devices/android_device_samsung_m20lte",
+      "LeafOS/android_hardware_samsung"
+    ]
+  }
+]
