@@ -1,0 +1,4 @@
+---
+- remote:
+  - github: 'https://github.com/'
+  - gitlab: 'https://gitlab.com/'
