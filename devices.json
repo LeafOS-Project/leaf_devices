@@ -1,0 +1,33 @@
+[
+  {
+    "device": ["m20lte"],
+    "repositories": [
+      "LeafOS-Devices/android_device_samsung_m20lte",
+      "LeafOS-Devices/android_device_samsung_universal7904-common",
+      "LeafOS-Devices/android_kernel_samsung_universal7904",
+      "LeafOS/android_device_samsung_slsi_sepolicy",
+      "LeafOS/android_hardware_samsung",
+      "LeafOS/android_hardware_samsung_slsi_libbt",
+      "LeafOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal",
+      "LeafOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib",
+      "Leaf-Blobs/proprietary_vendor_samsung"
+    ]
+  },
+  {
+    "device": ["beyond0lte", "beyond1lte", "beyond2lte", "beyondx", "d1", "d2s", "d2x"],
+    "repositories": [
+      "LeafOS-Devices/android_device_samsung_beyond0lte",
+      "LeafOS-Devices/android_device_samsung_beyond1lte",
+      "LeafOS-Devices/android_device_samsung_beyond2lte",
+      "LeafOS-Devices/android_device_samsung_beyondx",
+      "LeafOS-Devices/android_device_samsung_exynos9820-common",
+      "LeafOS-Devices/android_kernel_samsung_exynos9820",
+      "LeafOS/android_device_samsung_slsi_sepolicy",
+      "LeafOS/android_hardware_samsung",
+      "LeafOS/android_hardware_samsung_slsi_libbt",
+      "LeafOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal",
+      "LeafOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib",
+      "Leaf-Blobs/proprietary_vendor_samsung"
+    ]
+  }
+]
