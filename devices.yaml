@@ -1,0 +1,33 @@
+---
+- device:
+  - beyond1lte
+  family: exynos9820
+  repositories:
+  - name: linux4-bringup-priv/android_device_samsung_beyond1lte
+    path: device/samsung/beyond1lte
+    remote: github
+    revision: lineage-20.0
+  - name: linux4-bringup-priv/android_device_samsung_exynos9820-common
+    path: device/samsung/exynos9820-common
+    revision: lineage-20.0
+    remote: github
+  - name: LineageOS/android_device_samsung_slsi_sepolicy
+    path: device/samsung_slsi/sepolicy
+    revision: lineage-20
+    remote: github
+  - name: LineageOS/android_hardware_samsung
+    path: hardware/samsung
+    revision: lineage-20
+    remote: github
+  - name: linux4-bringup-priv/android_kernel_samsung_exynos9820
+    path: kernel/samsung/exynos9820
+    revision: lineage-20.0
+    remote: github
+  - name: linux4-bringup-priv/android_vendor_samsung_beyond1lte
+    path: vendor/samsung/beyond1lte
+    revision: lineage-20.0
+    remote: github
+  - name: linux4-bringup-priv/android_vendor_samsung_exynos9820-common
+    path: vendor/samsung/exynos9820-common
+    revision: lineage-20.0
+    remote: github
