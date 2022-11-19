@@ -54,7 +54,7 @@
     revision: lineage-20
     remote: github
   - name: LineageOS/android_hardware_samsung_slsi_libbt
-    path: hardware/samsung_slsi/scsc_wifibt/libbt
+    path: hardware/samsung_slsi/slsi/libbt
     revision: lineage-20
     remote: github
   - name: LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal
