@@ -39,12 +39,12 @@
     path: device/samsung/m20lte
   - name: LeafOS-Devices/android_device_samsung_universal7904-common
     path: device/samsung/universal7904-common
-  - name: LeafOS-Blobs/android_kernel_samsung_universal7904
+  - name: LeafOS-Devices/android_kernel_samsung_universal7904
     path: kernel/samsung/universal7904
   - name: LeafOS-Blobs/proprietary_vendor_samsung_m20lte
     path: vendor/samsung/m20lte
-  - name: LeafOS-Blobs/proprietary_vendor_samsung_universal7904
-    path: vendor/samsung/universal7904
+  - name: LeafOS-Blobs/proprietary_vendor_samsung_universal7904-common
+    path: vendor/samsung/universal7904-common
   - name: LineageOS/android_device_samsung_slsi_sepolicy
     path: device/samsung_slsi/sepolicy
     revision: lineage-20
