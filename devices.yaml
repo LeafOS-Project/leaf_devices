@@ -88,29 +88,19 @@
     path: device/samsung/m20lte
   - name: LeafOS-Devices/android_device_samsung_universal7904-common
     path: device/samsung/universal7904-common
+  - name: LeafOS-Devices/android_device_samsung_slsi_sepolicy
+    path: device/samsung_slsi/sepolicy
+  - name: LeafOS-Devices/android_hardware_samsung
+    path: hardware/samsung
+  - name: LeafOS-Devices/android_hardware_samsung_slsi_libbt
+    path: hardware/samsung_slsi/libbt
+  - name: LeafOS-Devices/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal
+    path: hardware/samsung_slsi/scsc_wifibt/wifi_hal
+  - name: LeafOS-Devices/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib
+    path: hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib
   - name: LeafOS-Devices/android_kernel_samsung_universal7904
     path: kernel/samsung/universal7904
   - name: LeafOS-Blobs/proprietary_vendor_samsung_m20lte
     path: vendor/samsung/m20lte
   - name: LeafOS-Blobs/proprietary_vendor_samsung_universal7904-common
     path: vendor/samsung/universal7904-common
-  - name: LineageOS/android_device_samsung_slsi_sepolicy
-    path: device/samsung_slsi/sepolicy
-    revision: lineage-20
-    remote: github
-  - name: LineageOS/android_hardware_samsung
-    path: hardware/samsung
-    revision: lineage-20
-    remote: github
-  - name: LineageOS/android_hardware_samsung_slsi_libbt
-    path: hardware/samsung_slsi/libbt
-    revision: lineage-20
-    remote: github
-  - name: LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal
-    path: hardware/samsung_slsi/scsc_wifibt/wifi_hal
-    revision: lineage-20
-    remote: github
-  - name: LineageOS/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib
-    path: hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib
-    revision: lineage-20
-    remote: github
