@@ -1,36 +1,143 @@
 ---
 - device:
+  - beyond0lte
+  family: exynos9820
+  repositories:
+  - name: LeafOS-Devices/android_device_samsung_beyond0lte
+    path: device/samsung/beyond0lte
+  - name: LeafOS-Devices/android_device_samsung_exynos9820-common
+    path: device/samsung/exynos9820-common
+  - name: LeafOS-Devices/android_device_samsung_slsi_sepolicy
+    path: device/samsung_slsi/sepolicy
+  - name: LeafOS-Devices/android_hardware_samsung
+    path: hardware/samsung
+  - name: LeafOS-Devices/android_kernel_samsung_exynos9820
+    path: kernel/samsung/exynos9820
+  - name: LeafOS-Blobs/proprietary_vendor_firmware
+    path: vendor/firmware
+  - name: LeafOS-Blobs/proprietary_vendor_samsung_beyond0lte
+    path: vendor/samsung/beyond0lte
+  - name: LeafOS-Blobs/proprietary_vendor_samsung_exynos9820-common
+    path: vendor/samsung/exynos9820-common
+- device:
   - beyond1lte
   family: exynos9820
   repositories:
-  - name: linux4-bringup-priv/android_device_samsung_beyond1lte
+  - name: LeafOS-Devices/android_device_samsung_beyond1lte
     path: device/samsung/beyond1lte
-    remote: github
-    revision: lineage-20.0
-  - name: linux4-bringup-priv/android_device_samsung_exynos9820-common
+  - name: LeafOS-Devices/android_device_samsung_exynos9820-common
     path: device/samsung/exynos9820-common
-    revision: lineage-20.0
-    remote: github
-  - name: LineageOS/android_device_samsung_slsi_sepolicy
+  - name: LeafOS-Devices/android_device_samsung_slsi_sepolicy
     path: device/samsung_slsi/sepolicy
-    revision: lineage-20
-    remote: github
-  - name: LineageOS/android_hardware_samsung
+  - name: LeafOS-Devices/android_hardware_samsung
     path: hardware/samsung
-    revision: lineage-20
-    remote: github
-  - name: linux4-bringup-priv/android_kernel_samsung_exynos9820
+  - name: LeafOS-Devices/android_kernel_samsung_exynos9820
     path: kernel/samsung/exynos9820
-    revision: lineage-20.0
-    remote: github
-  - name: linux4-bringup-priv/android_vendor_samsung_beyond1lte
+  - name: LeafOS-Blobs/proprietary_vendor_firmware
+    path: vendor/firmware
+  - name: LeafOS-Blobs/proprietary_vendor_samsung_beyond1lte
     path: vendor/samsung/beyond1lte
-    revision: lineage-20.0
-    remote: github
-  - name: linux4-bringup-priv/android_vendor_samsung_exynos9820-common
+  - name: LeafOS-Blobs/proprietary_vendor_samsung_exynos9820-common
     path: vendor/samsung/exynos9820-common
-    revision: lineage-20.0
-    remote: github
+- device:
+  - beyond2lte
+  family: exynos9820
+  repositories:
+  - name: LeafOS-Devices/android_device_samsung_beyond2lte
+    path: device/samsung/beyond2lte
+  - name: LeafOS-Devices/android_device_samsung_exynos9820-common
+    path: device/samsung/exynos9820-common
+  - name: LeafOS-Devices/android_device_samsung_slsi_sepolicy
+    path: device/samsung_slsi/sepolicy
+  - name: LeafOS-Devices/android_hardware_samsung
+    path: hardware/samsung
+  - name: LeafOS-Devices/android_kernel_samsung_exynos9820
+    path: kernel/samsung/exynos9820
+  - name: LeafOS-Blobs/proprietary_vendor_firmware
+    path: vendor/firmware
+  - name: LeafOS-Blobs/proprietary_vendor_samsung_beyond2lte
+    path: vendor/samsung/beyond2lte
+  - name: LeafOS-Blobs/proprietary_vendor_samsung_exynos9820-common
+    path: vendor/samsung/exynos9820-common
+- device:
+  - beyondx
+  family: exynos9820
+  repositories:
+  - name: LeafOS-Devices/android_device_samsung_beyondx
+    path: device/samsung/beyondx
+  - name: LeafOS-Devices/android_device_samsung_exynos9820-common
+    path: device/samsung/exynos9820-common
+  - name: LeafOS-Devices/android_device_samsung_slsi_sepolicy
+    path: device/samsung_slsi/sepolicy
+  - name: LeafOS-Devices/android_hardware_samsung
+    path: hardware/samsung
+  - name: LeafOS-Devices/android_kernel_samsung_exynos9820
+    path: kernel/samsung/exynos9820
+  - name: LeafOS-Blobs/proprietary_vendor_firmware
+    path: vendor/firmware
+  - name: LeafOS-Blobs/proprietary_vendor_samsung_beyondx
+    path: vendor/samsung/beyondx
+  - name: LeafOS-Blobs/proprietary_vendor_samsung_exynos9820-common
+    path: vendor/samsung/exynos9820-common
+- device:
+  - d1
+  family: exynos9820
+  repositories:
+  - name: LeafOS-Devices/android_device_samsung_d1
+    path: device/samsung/d1
+  - name: LeafOS-Devices/android_device_samsung_exynos9820-common
+    path: device/samsung/exynos9820-common
+  - name: LeafOS-Devices/android_device_samsung_slsi_sepolicy
+    path: device/samsung_slsi/sepolicy
+  - name: LeafOS-Devices/android_hardware_samsung
+    path: hardware/samsung
+  - name: LeafOS-Devices/android_kernel_samsung_exynos9820
+    path: kernel/samsung/exynos9820
+  - name: LeafOS-Blobs/proprietary_vendor_firmware
+    path: vendor/firmware
+  - name: LeafOS-Blobs/proprietary_vendor_samsung_d1
+    path: vendor/samsung/d1
+  - name: LeafOS-Blobs/proprietary_vendor_samsung_exynos9820-common
+    path: vendor/samsung/exynos9820-common
+- device:
+  - d2s
+  family: exynos9820
+  repositories:
+  - name: LeafOS-Devices/android_device_samsung_d2s
+    path: device/samsung/d2s
+  - name: LeafOS-Devices/android_device_samsung_exynos9820-common
+    path: device/samsung/exynos9820-common
+  - name: LeafOS-Devices/android_device_samsung_slsi_sepolicy
+    path: device/samsung_slsi/sepolicy
+  - name: LeafOS-Devices/android_hardware_samsung
+    path: hardware/samsung
+  - name: LeafOS-Devices/android_kernel_samsung_exynos9820
+    path: kernel/samsung/exynos9820
+  - name: LeafOS-Blobs/proprietary_vendor_firmware
+    path: vendor/firmware
+  - name: LeafOS-Blobs/proprietary_vendor_samsung_d2s
+    path: vendor/samsung/d2s
+  - name: LeafOS-Blobs/proprietary_vendor_samsung_exynos9820-common
+    path: vendor/samsung/exynos9820-common
+- device:
+  - d2x
+  family: exynos9820
+  repositories:
+  - name: LeafOS-Devices/android_device_samsung_d2x
+    path: device/samsung/d2x
+  - name: LeafOS-Devices/android_device_samsung_exynos9820-common
+    path: device/samsung/exynos9820-common
+  - name: LeafOS-Devices/android_device_samsung_slsi_sepolicy
+    path: device/samsung_slsi/sepolicy
+  - name: LeafOS-Devices/android_hardware_samsung
+    path: hardware/samsung
+  - name: LeafOS-Devices/android_kernel_samsung_exynos9820
+    path: kernel/samsung/exynos9820
+  - name: LeafOS-Blobs/proprietary_vendor_firmware
+    path: vendor/firmware
+  - name: LeafOS-Blobs/proprietary_vendor_samsung_d2x
+    path: vendor/samsung/d2x
+  - name: LeafOS-Blobs/proprietary_vendor_samsung_exynos9820-common
 - device:
   - m20lte
   family: universal7904
@@ -65,4 +172,3 @@
     path: hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib
     revision: lineage-20
     remote: github
-
