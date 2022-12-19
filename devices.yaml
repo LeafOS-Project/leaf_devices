@@ -104,3 +104,19 @@
     path: vendor/samsung/m20lte
   - name: LeafOS-Blobs/proprietary_vendor_samsung_universal7904-common
     path: vendor/samsung/universal7904-common
+- device:
+  - RM6785
+  family: RM6785
+  repositories:
+  - name: LeafOS-Devices/android_device_realme_RM6785
+    path: device/realme/RM6785
+  - name: LeafOS-Devices/android_device_mediatek_sepolicy
+    path: device/mediatek/sepolicy
+  - name: LeafOS-Devices/android_kernel_realme_mt6785
+    path: kernel/realme/mt6785
+  - name: LeafOS-Devices/android_vendor_mediatek_opensource_interfaces
+    path: vendor/mediatek/opensource/interfaces
+  - name: LeafOS-Blobs/proprietary_vendor_firmware
+    path: vendor/firmware
+  - name: LeafOS-Blobs/proprietary_vendor_realme_RM6785
+    path: vendor/realme/RM6785
