@@ -105,7 +105,8 @@
   - name: LeafOS-Blobs/proprietary_vendor_samsung_universal7904-common
     path: vendor/samsung/universal7904-common
 - device:
-  - RM6785
+  - RMX2001
+  - RMX2151
   family: RM6785
   repositories:
   - name: LeafOS-Devices/android_device_realme_RM6785
