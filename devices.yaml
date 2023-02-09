@@ -50,6 +50,10 @@
   - name: LeafOS-Blobs/proprietary_vendor_samsung_exynos9820-common
     path: vendor/samsung/exynos9820-common
 - device:
+  - leaf_gsi_arm64
+  family: leaf_builtin_devices
+  repositories: []
+- device:
   - gta4xl
   - gta4xlwifi
   family: gta4xl
