@@ -7,6 +7,7 @@
   - d1
   - d2s
   - d2x
+  - m62
   family: exynos9820
   repositories:
   - name: LeafOS-Devices/android_device_samsung_beyond0lte
@@ -23,16 +24,37 @@
     path: device/samsung/d2s
   - name: LeafOS-Devices/android_device_samsung_d2x
     path: device/samsung/d2x
-  - name: LeafOS-Devices/android_device_samsung_exynos9820-common
+  - name: m62-dev/android_device_samsung_exynos9820-common
     path: device/samsung/exynos9820-common
+    remote: github
+    revision: refs/heads/lineage-20
+  - name: m62-dev/android_device_samsung_m62
+    path: device/samsung/m62
+    remote: github
+    revision: refs/heads/lineage-20
   - name: LeafOS-Devices/android_device_samsung_slsi_sepolicy
     path: device/samsung_slsi/sepolicy
+    revision: 5cdf34ddd7126fed6a72fe3ed8e7b9c9f551b32b
   - name: LeafOS-Devices/android_hardware_samsung
     path: hardware/samsung
-  - name: LeafOS-Devices/android_kernel_samsung_exynos9820
+    revision: 265346b0f5a0df04c01058e2c2280b2eb0dde7e9
+  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_config
+    path: hardware/samsung_slsi-linaro/config
+  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_exynos
+    path: hardware/samsung_slsi-linaro/exynos
+  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_exynos5
+    path: hardware/samsung_slsi-linaro/exynos5
+  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_graphics
+    path: hardware/samsung_slsi-linaro/graphics
+  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_openmax
+    path: hardware/samsung_slsi-linaro/openmax
+  - name: m62-dev/android_kernel_samsung_exynos9820
     path: kernel/samsung/exynos9820
+    remote: github
+    revision: refs/heads/lineage-20
   - name: LeafOS-Blobs/proprietary_vendor_firmware
     path: vendor/firmware
+    revision: 312e73f2d31fc32840b7f6988ebdd0ac8c7d50bc
   - name: LeafOS-Blobs/proprietary_vendor_samsung_beyond0lte
     path: vendor/samsung/beyond0lte
   - name: LeafOS-Blobs/proprietary_vendor_samsung_beyond1lte
@@ -47,8 +69,14 @@
     path: vendor/samsung/d2s
   - name: LeafOS-Blobs/proprietary_vendor_samsung_d2x
     path: vendor/samsung/d2x
-  - name: LeafOS-Blobs/proprietary_vendor_samsung_exynos9820-common
+  - name: m62-dev/proprietary_vendor_samsung_exynos9820-common
     path: vendor/samsung/exynos9820-common
+    remote: github
+    revision: refs/heads/lineage-20
+  - name: m62-dev/android_vendor_samsung_m62
+    path: vendor/samsung/m62
+    remote: github
+    revision: refs/heads/lineage-20
 - device:
   - leaf_gsi_arm64
   family: leaf_builtin_devices
