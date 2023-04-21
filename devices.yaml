@@ -29,6 +29,16 @@
     path: device/samsung_slsi/sepolicy
   - name: LeafOS-Devices/android_hardware_samsung
     path: hardware/samsung
+  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_config
+    path: hardware/samsung_slsi-linaro/config
+  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_exynos
+    path: hardware/samsung_slsi-linaro/exynos
+  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_exynos5
+    path: hardware/samsung_slsi-linaro/exynos5
+  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_graphics
+    path: hardware/samsung_slsi-linaro/graphics
+  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_openmax
+    path: hardware/samsung_slsi-linaro/openmax
   - name: LeafOS-Devices/android_kernel_samsung_exynos9820
     path: kernel/samsung/exynos9820
   - name: LeafOS-Blobs/proprietary_vendor_firmware
@@ -70,6 +80,16 @@
     path: hardware/samsung
   - name: LeafOS-Devices/android_hardware_samsung_slsi_libbt
     path: hardware/samsung_slsi/libbt
+  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_config
+    path: hardware/samsung_slsi-linaro/config
+  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_exynos
+    path: hardware/samsung_slsi-linaro/exynos
+  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_exynos5
+    path: hardware/samsung_slsi-linaro/exynos5
+  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_graphics
+    path: hardware/samsung_slsi-linaro/graphics
+  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_openmax
+    path: hardware/samsung_slsi-linaro/openmax
   - name: LeafOS-Devices/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal
     path: hardware/samsung_slsi/scsc_wifibt/wifi_hal
   - name: LeafOS-Devices/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib
