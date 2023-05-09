@@ -145,3 +145,24 @@
     path: vendor/firmware
   - name: LeafOS-Blobs/proprietary_vendor_realme_RM6785
     path: vendor/realme/RM6785
+- device:
+  - pdx203
+  - pdx206
+  family: pdx20x
+  repositories:
+  - name: LeafOS-Devices/android_device_sony_pdx203
+    path: device/sony/pdx203
+  - name: LeafOS-Devices/android_device_sony_pdx206
+    path: device/sony/pdx206
+  - name: LeafOS-Devices/android_device_sony_sm8250-common
+    path: device/sony/sm8250-common
+  - name: LeafOS-Devices/android_kernel_sony_sm8250
+    path: kernel/sony/sm8250
+  - name: LeafOS-Devices/android_hardware_sony
+    path: hardware/sony
+  - name: LeafOS-Blobs/proprietary_vendor_pdx203
+    path: vendor/sony/pdx203
+  - name: LeafOS-Blobs/proprietary_vendor_pdx206
+    path: vendor/sony/pdx206
+  - name: LeafOS-Blobs/proprietary_vendor_sony_sm8250-common
+    path: vendor/sony/sm8250-common
