@@ -140,12 +140,12 @@
   repositories:
   - name: LeafOS-Devices/android_device_realme_RM6785
     path: device/realme/RM6785
-  - name: LeafOS-Devices/android_device_mediatek_sepolicy
-    path: device/mediatek/sepolicy
+  - name: LeafOS-Devices/android_device_mediatek_sepolicy_vndr
+    path: device/mediatek/sepolicy_vndr
   - name: LeafOS-Devices/android_kernel_realme_mt6785
     path: kernel/realme/mt6785
-  - name: LeafOS-Devices/android_vendor_mediatek_opensource_interfaces
-    path: vendor/mediatek/opensource/interfaces
+  - name: LeafOS-Devices/android_hardware_mediatek
+    path: hardware/mediatek
   - name: LeafOS-Blobs/proprietary_vendor_firmware
     path: vendor/firmware
   - name: LeafOS-Blobs/proprietary_vendor_realme_RM6785
