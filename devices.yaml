@@ -10,59 +10,115 @@
   - f62
   family: exynos9820
   repositories:
-  - name: LeafOS-Devices/android_device_samsung_beyond0lte
+  - name: linux4-bringup-priv/android_device_samsung_beyond0lte
+    remote: "github"
+    revision: "lineage-21.0"
     path: device/samsung/beyond0lte
-  - name: LeafOS-Devices/android_device_samsung_beyond1lte
+  - name: linux4-bringup-priv/android_device_samsung_beyond1lte
+    remote: "github"
+    revision: "lineage-21.0"
     path: device/samsung/beyond1lte
-  - name: LeafOS-Devices/android_device_samsung_beyond2lte
+  - name: linux4-bringup-priv/android_device_samsung_beyond2lte
+    remote: "github"
+    revision: "lineage-21.0"
     path: device/samsung/beyond2lte
-  - name: LeafOS-Devices/android_device_samsung_beyondx
+  - name: linux4-bringup-priv/android_device_samsung_beyondx
+    remote: "github"
+    revision: "lineage-21.0"
     path: device/samsung/beyondx
-  - name: LeafOS-Devices/android_device_samsung_d1
+  - name: linux4-bringup-priv/android_device_samsung_d1
+    remote: "github"
+    revision: "lineage-21.0"
     path: device/samsung/d1
-  - name: LeafOS-Devices/android_device_samsung_d2s
+  - name: linux4-bringup-priv/android_device_samsung_d2s
+    remote: "github"
+    revision: "lineage-21.0"
     path: device/samsung/d2s
-  - name: LeafOS-Devices/android_device_samsung_d2x
+  - name: linux4-bringup-priv/android_device_samsung_d2x
+    remote: "github"
+    revision: "lineage-21.0"
     path: device/samsung/d2x
-  - name: LeafOS-Devices/android_device_samsung_exynos9820-common
+  - name: linux4-bringup-priv/android_device_samsung_exynos9820-common
+    remote: "github"
+    revision: "lineage-21.0"
     path: device/samsung/exynos9820-common
-  - name: LeafOS-Devices/android_device_samsung_f62
+  - name: linux4-bringup-priv/android_device_samsung_f62
+    remote: "github"
+    revision: "lineage-21.0"
     path: device/samsung/f62
-  - name: LeafOS-Devices/android_device_samsung_slsi_sepolicy
+  - name: linux4-bringup-priv/android_device_samsung_slsi_sepolicy
+    remote: "github"
+    revision: "lineage-21.0"
     path: device/samsung_slsi/sepolicy
-  - name: LeafOS-Devices/android_hardware_samsung
+  - name: linux4-bringup-priv/android_hardware_samsung
+    remote: "github"
+    revision: "lineage-21.0"
     path: hardware/samsung
-  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_config
+  - name: linux4-bringup-priv/android_hardware_samsung_slsi-linaro_config
+    remote: "github"
+    revision: "lineage-21.0"
     path: hardware/samsung_slsi-linaro/config
-  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_exynos
+  - name: linux4-bringup-priv/android_hardware_samsung_slsi-linaro_exynos
+    remote: "github"
+    revision: "lineage-21.0"
     path: hardware/samsung_slsi-linaro/exynos
-  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_exynos5
+  - name: linux4-bringup-priv/android_hardware_samsung_slsi-linaro_exynos5
+    remote: "github"
+    revision: "lineage-21.0"
     path: hardware/samsung_slsi-linaro/exynos5
-  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_graphics
+  - name: linux4-bringup-priv/android_hardware_samsung_slsi-linaro_graphics
+    remote: "github"
+    revision: "lineage-21.0"
     path: hardware/samsung_slsi-linaro/graphics
-  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_openmax
+  - name: linux4-bringup-priv/android_hardware_samsung_slsi-linaro_interfaces
+    remote: "github"
+    revision: "lineage-21.0"
+    path: hardware/samsung_slsi-linaro/interfaces
+  - name: linux4-bringup-priv/android_hardware_samsung_slsi-linaro_openmax
+    remote: "github"
+    revision: "lineage-21.0"
     path: hardware/samsung_slsi-linaro/openmax
-  - name: LeafOS-Devices/android_kernel_samsung_exynos9820
+  - name: linux4-bringup-priv/android_kernel_samsung_exynos9820
+    remote: "github"
+    revision: "lineage-21.0"
     path: kernel/samsung/exynos9820
   - name: LeafOS-Blobs/proprietary_vendor_firmware
     path: vendor/firmware
-  - name: LeafOS-Blobs/proprietary_vendor_samsung_beyond0lte
+  - name: linux4-bringup-priv/android_vendor_samsung_beyond0lte
+    remote: "github"
+    revision: "lineage-21.0"
     path: vendor/samsung/beyond0lte
-  - name: LeafOS-Blobs/proprietary_vendor_samsung_beyond1lte
+  - name: linux4-bringup-priv/android_vendor_samsung_beyond1lte
+    remote: "github"
+    revision: "lineage-21.0"
     path: vendor/samsung/beyond1lte
-  - name: LeafOS-Blobs/proprietary_vendor_samsung_beyond2lte
+  - name: linux4-bringup-priv/android_vendor_samsung_beyond2lte
+    remote: "github"
+    revision: "lineage-21.0"
     path: vendor/samsung/beyond2lte
-  - name: LeafOS-Blobs/proprietary_vendor_samsung_beyondx
+  - name: linux4-bringup-priv/android_vendor_samsung_beyondx
+    remote: "github"
+    revision: "lineage-21.0"
     path: vendor/samsung/beyondx
-  - name: LeafOS-Blobs/proprietary_vendor_samsung_d1
+  - name: linux4-bringup-priv/android_vendor_samsung_d1
+    remote: "github"
+    revision: "lineage-21.0"
     path: vendor/samsung/d1
-  - name: LeafOS-Blobs/proprietary_vendor_samsung_d2s
+  - name: linux4-bringup-priv/android_vendor_samsung_d2s
+    remote: "github"
+    revision: "lineage-21.0"
     path: vendor/samsung/d2s
-  - name: LeafOS-Blobs/proprietary_vendor_samsung_d2x
+  - name: linux4-bringup-priv/android_vendor_samsung_d2x
+    remote: "github"
+    revision: "lineage-21.0"
     path: vendor/samsung/d2x
-  - name: LeafOS-Blobs/proprietary_vendor_samsung_exynos9820-common
+  - name: linux4-bringup-priv/android_vendor_samsung_exynos9820-common
+    remote: "github"
+    revision: "lineage-21.0"
     path: vendor/samsung/exynos9820-common
-  - name: LeafOS-Blobs/proprietary_vendor_samsung_f62
+  - name: linux4-bringup-priv/android_vendor_samsung_f62
+    remote: "github"
+    revision: "lineage-21.0"
     path: vendor/samsung/f62
 - device:
   - leaf_gsi_arm64
@@ -73,41 +129,79 @@
   - gta4xlwifi
   family: gta4xl
   repositories:
-  - name: LeafOS-Devices/android_device_samsung_gta4xl
+  - name: linux4-bringup-priv/android_device_samsung_gta4xl
+    remote: "github"
+    revision: "lineage-21.0"
     path: device/samsung/gta4xl
-  - name: LeafOS-Devices/android_device_samsung_gta4xlwifi
+  - name: linux4-bringup-priv/android_device_samsung_gta4xlwifi
+    remote: "github"
+    revision: "lineage-21.0"
     path: device/samsung/gta4xlwifi
-  - name: LeafOS-Devices/android_device_samsung_gta4xl-common
+  - name: linux4-bringup-priv/android_device_samsung_gta4xl-common
+    remote: "github"
+    revision: "lineage-21.0"
     path: device/samsung/gta4xl-common
-  - name: LeafOS-Devices/android_device_samsung_slsi_sepolicy
+  - name: linux4-bringup-priv/android_device_samsung_slsi_sepolicy
+    remote: "github"
+    revision: "lineage-21.0"
     path: device/samsung_slsi/sepolicy
-  - name: LeafOS-Devices/android_hardware_samsung
+  - name: linux4-bringup-priv/android_hardware_samsung
+    remote: "github"
+    revision: "lineage-21.0"
     path: hardware/samsung
-  - name: LeafOS-Devices/android_hardware_samsung_slsi_libbt
+  - name: linux4-bringup-priv/android_hardware_samsung_slsi_libbt
+    remote: "github"
+    revision: "lineage-21.0"
     path: hardware/samsung_slsi/libbt
-  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_config
+  - name: linux4-bringup-priv/android_hardware_samsung_slsi-linaro_config
+    remote: "github"
+    revision: "lineage-21.0"
     path: hardware/samsung_slsi-linaro/config
-  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_exynos
+  - name: linux4-bringup-priv/android_hardware_samsung_slsi-linaro_exynos
+    remote: "github"
+    revision: "lineage-21.0"
     path: hardware/samsung_slsi-linaro/exynos
-  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_exynos5
+  - name: linux4-bringup-priv/android_hardware_samsung_slsi-linaro_exynos5
+    remote: "github"
+    revision: "lineage-21.0"
     path: hardware/samsung_slsi-linaro/exynos5
-  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_graphics
+  - name: linux4-bringup-priv/android_hardware_samsung_slsi-linaro_graphics
+    remote: "github"
+    revision: "lineage-21.0"
     path: hardware/samsung_slsi-linaro/graphics
-  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_openmax
+  - name: linux4-bringup-priv/android_hardware_samsung_slsi-linaro_interfaces
+    remote: "github"
+    revision: "lineage-21.0"
+    path: hardware/samsung_slsi-linaro/interfaces
+  - name: linux4-bringup-priv/android_hardware_samsung_slsi-linaro_openmax
+    remote: "github"
+    revision: "lineage-21.0"
     path: hardware/samsung_slsi-linaro/openmax
-  - name: LeafOS-Devices/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal
+  - name: linux4-bringup-priv/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal
+    remote: "github"
+    revision: "lineage-21.0"
     path: hardware/samsung_slsi/scsc_wifibt/wifi_hal
-  - name: LeafOS-Devices/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib
+  - name: linux4-bringup-priv/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib
+    remote: "github"
+    revision: "lineage-21.0"
     path: hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib
-  - name: LeafOS-Devices/android_kernel_samsung_gta4xl
+  - name: linux4-bringup-priv/android_kernel_samsung_gta4xl
+    remote: "github"
+    revision: "lineage-21.0"
     path: kernel/samsung/gta4xl
   - name: LeafOS-Blobs/proprietary_vendor_firmware
     path: vendor/firmware
-  - name: LeafOS-Blobs/proprietary_vendor_samsung_gta4xl
+  - name: linux4-bringup-priv/proprietary_vendor_samsung_gta4xl
+    remote: "github"
+    revision: "lineage-21.0"
     path: vendor/samsung/gta4xl
-  - name: LeafOS-Blobs/proprietary_vendor_samsung_gta4xlwifi
+  - name: linux4-bringup-priv/proprietary_vendor_samsung_gta4xlwifi
+    remote: "github"
+    revision: "lineage-21.0"
     path: vendor/samsung/gta4xlwifi
-  - name: LeafOS-Blobs/proprietary_vendor_samsung_gta4xl-common
+  - name: linux4-bringup-priv/proprietary_vendor_samsung_gta4xl-common
+    remote: "github"
+    revision: "lineage-21.0"
     path: vendor/samsung/gta4xl-common
 - device:
   - m20lte
