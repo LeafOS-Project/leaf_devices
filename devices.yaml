@@ -123,6 +123,18 @@
     path: hardware/samsung
   - name: LeafOS-Devices/android_hardware_samsung_slsi_libbt
     path: hardware/samsung_slsi/libbt
+  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_config
+    path: hardware/samsung_slsi-linaro/config
+  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_exynos
+    path: hardware/samsung_slsi-linaro/exynos
+  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_exynos5
+    path: hardware/samsung_slsi-linaro/exynos5
+  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_graphics
+    path: hardware/samsung_slsi-linaro/graphics
+  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_interfaces
+    path: hardware/samsung_slsi-linaro/interfaces
+  - name: LeafOS-Devices/android_hardware_samsung_slsi-linaro_openmax
+    path: hardware/samsung_slsi-linaro/openmax
   - name: LeafOS-Devices/android_hardware_samsung_slsi_scsc_wifibt_wifi_hal
     path: hardware/samsung_slsi/scsc_wifibt/wifi_hal
   - name: LeafOS-Devices/android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib
@@ -138,15 +150,17 @@
   - RMX2151L1
   family: RM6785
   repositories:
-  - name: LeafOS-Devices/android_device_realme_RM6785
-    path: device/realme/RM6785
+  - name: LeafOS-Devices/android_device_realme_RMX2001L1
+    path: device/realme/RMX2001L1
+  - name: LeafOS-Devices/android_device_realme_RMX2151L1
+    path: device/realme/RMX2151L1
+  - name: LeafOS-Devices/android_device_realme_RM6785-common
+    path: device/realme/RM6785-common
   - name: LeafOS-Devices/android_device_mediatek_sepolicy_vndr
     path: device/mediatek/sepolicy_vndr
   - name: LeafOS-Devices/android_kernel_realme_mt6785
     path: kernel/realme/mt6785
   - name: LeafOS-Devices/android_hardware_mediatek
     path: hardware/mediatek
-  - name: LeafOS-Blobs/proprietary_vendor_firmware
-    path: vendor/firmware
-  - name: LeafOS-Blobs/proprietary_vendor_realme_RM6785
-    path: vendor/realme/RM6785
+  - name: LeafOS-Blobs/proprietary_vendor_realme_RM6785-common
+    path: vendor/realme/RM6785-common
