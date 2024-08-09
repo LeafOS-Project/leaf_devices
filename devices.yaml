@@ -36,6 +36,7 @@
   - beyond2lte
   - beyondx
   - d1
+  - d1x
   - d2s
   - d2x
   - f62
@@ -53,6 +54,8 @@
     path: device/samsung/beyondx
   - name: LeafOS-Devices/android_device_samsung_d1
     path: device/samsung/d1
+  - name: LeafOS-Devices/android_device_samsung_d1x
+    path: device/samsung/d1x
   - name: LeafOS-Devices/android_device_samsung_d2s
     path: device/samsung/d2s
   - name: LeafOS-Devices/android_device_samsung_d2x
@@ -73,6 +76,8 @@
     path: vendor/samsung/beyondx
   - name: LeafOS-Blobs/proprietary_vendor_samsung_d1
     path: vendor/samsung/d1
+  - name: LeafOS-Blobs/proprietary_vendor_samsung_d1x
+    path: vendor/samsung/d1x
   - name: LeafOS-Blobs/proprietary_vendor_samsung_d2s
     path: vendor/samsung/d2s
   - name: LeafOS-Blobs/proprietary_vendor_samsung_d2x
