@@ -53,6 +53,8 @@
     path: device/samsung/beyondx
   - name: LeafOS-Devices/android_device_samsung_d1
     path: device/samsung/d1
+  - name: LeafOS-Devices/android_device_samsung_d1x
+    path: device/samsung/d1x
   - name: LeafOS-Devices/android_device_samsung_d2s
     path: device/samsung/d2s
   - name: LeafOS-Devices/android_device_samsung_d2x
